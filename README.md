@@ -6,7 +6,9 @@ Mods for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview). Ea
 
 | Mod | What it does |
 | --- | --- |
-| [summary-only](plugins/summary-only) | Hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report. |
+| <img src="plugins/summary-only/.claude-plugin/icon.png" alt="" width="20"> [summary-only](plugins/summary-only) | Hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report. |
+
+<a href="plugins/summary-only"><img src="docs/summary-only/diff-report.png" alt="summary-only: annotated diff report" width="720"></a>
 
 ## Install a mod
 

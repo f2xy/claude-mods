@@ -1,3 +1,5 @@
+<img src=".claude-plugin/icon.png" alt="" width="96" align="right">
+
 # summary-only
 
 A Claude Code mod for people who only read the result. While Claude works, the transcript keeps your prompt and Claude's final answer; tool calls, their output, file diffs and the text Claude writes between tool calls are hidden.
@@ -13,6 +15,18 @@ A Claude Code mod for people who only read the result. While Claude works, the t
   - **Flow diagram** (`f`): a Mermaid diagram of what the work does and how it connects (needs an internet connection to load Mermaid).
   - **Reset** (`r`): start tracking changes again from now.
 - The footer shows a `summary-only` label while the view is on.
+
+## Screenshots
+
+The annotated diff report, opened from the row above the input:
+
+![Annotated diff report with review notes under the changed lines](../../docs/summary-only/diff-report.png)
+
+The flow diagram page:
+
+![Flow diagram page with the request flow, the flow steps and the changed files](../../docs/summary-only/flow-diagram.png)
+
+Both examples use a made-up project.
 
 ## Usage
 

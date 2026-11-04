@@ -1,6 +1,6 @@
 {
   "name": "summary-only",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Summary-only view for Claude Code: hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report.",
   "author": { "name": "f2xy" },
   "license": "MIT",
