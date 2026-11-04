@@ -1,0 +1,12 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "f2xy" },
+  "description": "Claude Code mods by f2xy.",
+  "plugins": [
+    {
+      "name": "summary-only",
+      "source": "./plugins/summary-only",
+      "description": "Hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report."
+    }
+  ]
+}
