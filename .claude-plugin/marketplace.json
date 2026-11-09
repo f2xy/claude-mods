@@ -7,6 +7,11 @@
       "name": "summary-only",
       "source": "./plugins/summary-only",
       "description": "Hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report."
+    },
+    {
+      "name": "decisions",
+      "source": "./plugins/decisions",
+      "description": "Decisions Claude leaves for you are asked one by one with the question dialog, or listed and answered item by item in a form (/decisions); Claude then carries on with your answers."
     }
   ]
 }

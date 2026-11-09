@@ -1,0 +1,17 @@
+{
+  "name": "decisions",
+  "version": "0.1.0",
+  "description": "Decisions Claude leaves for you are asked one by one with AskUserQuestion, or listed and answered item by item in a form; Claude then carries on with your answers.",
+  "author": { "name": "f2xy" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "How decisions reach you",
+      "description": "ask: Claude asks each decision with the question dialog and carries on in the same turn. form: Claude lists them under a Decisions heading and you answer each in a form (/decisions). Takes effect in new sessions.",
+      "default": "ask",
+      "options": ["ask", "form"]
+    }
+  }
+}

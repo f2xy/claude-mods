@@ -7,6 +7,7 @@ Mods for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview). Ea
 | Mod | What it does |
 | --- | --- |
 | <img src="plugins/summary-only/.claude-plugin/icon.png" alt="" width="20"> [summary-only](plugins/summary-only) | Hides tool calls, diffs and the text between tool calls so the transcript keeps your prompt and the final answer; pins your last prompt above the input and opens the session's changes as an HTML diff report. |
+| [decisions](plugins/decisions) | Decisions Claude leaves for you are asked one by one with the question dialog, or listed and answered item by item in a form (`/decisions`); Claude then carries on with your answers. |
 
 <a href="plugins/summary-only"><img src="docs/summary-only/diff-report.png" alt="summary-only: annotated diff report" width="720"></a>
 
